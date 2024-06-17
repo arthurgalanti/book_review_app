@@ -1,4 +1,4 @@
-# Book Review App
+# Book Sentiment Analyzer
 
 Bem-vindo ao Book Review App! Esta aplicação permite que os usuários registrem livros, adicionem comentários e obtenham análises de sentimentos para esses comentários utilizando a API do Gemini.
 
@@ -35,8 +35,8 @@ Para obter a chave da API do Gemini, siga os passos abaixo:
 4.  Navegue até a seção de "Chaves de API" e siga as instruções para gerar sua chave de API. 
 5.  Adicione a chave de API ao arquivo .env na raiz do seu projeto conforme descrito acima.  
 
-### 3. Explicação do setup_and_run.bat
-O arquivo setup_and_run.bat é um script batch para facilitar a configuração e execução do projeto no Windows.  
+### 3. Explicação do run_and_setup.bat
+O arquivo run_and_setup.bat é um script batch para facilitar a configuração e execução do projeto no Windows.  
 Ele realiza as seguintes tarefas:
 
 Cria o banco de dados:  
@@ -48,13 +48,13 @@ Executa pip install -r requirements.txt para instalar todas as dependências nec
 Iniciar o Projeto:   
 Executa python main.py para iniciar a aplicação.  
 <br> 
-Para usar o script setup_and_run.bat, basta executá-lo clicando duas vezes nele ou executando-o no terminal:
+Para usar o script run_and_setup.bat, basta executá-lo clicando duas vezes nele ou executando-o no terminal:
 
 ```
-setup_and_run.bat
+run_and_setup.bat
 ```
 
-### 4. Executar Manualmente sem o setup_and_run.bat
+### 4. Executar Manualmente sem o run_and_setup.bat
 Se você preferir configurar e executar o projeto manualmente, siga os passos abaixo:
 <br>  
 ### 4.1. Criar o Banco de Dados
